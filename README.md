@@ -1,3 +1,3 @@
 # Fitness Tracker App
 
-A simple full-stack fitness tracking app with backend and frontend.
+A simple fitness tracker app made with React, Spring Boot and MySQL
