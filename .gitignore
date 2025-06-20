@@ -1,0 +1,5 @@
+# Ignore Java build
+FitnessTrackerBackend/target/
+
+# Ignore Node.js dependencies
+FitnessTrackerFrontend/node_modules/
