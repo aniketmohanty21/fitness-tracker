@@ -1,5 +1,16 @@
-# Ignore Java build
+# Ignore node_modules and build from frontend
+fitness-tracker-frontend/node_modules/
+fitness-tracker-frontend/dist/
+
+# Ignore build and IDE files from backend
 FitnessTrackerBackend/target/
 
-# Ignore Node.js dependencies
-FitnessTrackerFrontend/node_modules/
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore environment files (if used at root)
+.env
