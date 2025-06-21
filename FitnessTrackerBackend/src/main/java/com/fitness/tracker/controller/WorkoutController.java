@@ -5,7 +5,6 @@ import com.fitness.tracker.service.WorkoutService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -16,7 +15,7 @@ public class WorkoutController {
     @Autowired
     private WorkoutService workoutService;
 
-    // POST: Add a workout for a specific user
+    // POST: Add a workout for a specific use   r
     @PostMapping("/user/{userId}")
     public ResponseEntity<Workout> createWorkout(@PathVariable Long userId, @RequestBody Workout workout) {
         return ResponseEntity.ok(workoutService.createWorkout(userId, workout));
