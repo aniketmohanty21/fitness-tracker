@@ -7,7 +7,7 @@
 <img width="1713" height="835" alt="image" src="https://github.com/user-attachments/assets/d1b4aaad-1d0c-450f-afe8-67e7c7a0cca0" />
 <p>Dashboard</p>
 <img width="1920" height="939" alt="image" src="https://github.com/user-attachments/assets/033baaaa-db3e-450b-81fe-e0a7e5a9aae4" />
-<p>Workouts</p>
+<p>Workouts ( with Update and Delete functions )</p>
 <img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/8e6feef1-b645-45a2-a71e-fde8c5a89eda" />
 <p>Adding Workouts</p>
 <img width="1008" height="917" alt="image" src="https://github.com/user-attachments/assets/598102d6-4e38-4944-98ab-5c7439912c87" />
