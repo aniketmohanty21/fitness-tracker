@@ -15,7 +15,7 @@ public class WorkoutController {
     @Autowired
     private WorkoutService workoutService;
 
-    // POST: Add a workout for a specific use   r
+    // POST: Add a workout for a specific user
     @PostMapping("/user/{userId}")
     public ResponseEntity<Workout> createWorkout(@PathVariable Long userId, @RequestBody Workout workout) {
         return ResponseEntity.ok(workoutService.createWorkout(userId, workout));

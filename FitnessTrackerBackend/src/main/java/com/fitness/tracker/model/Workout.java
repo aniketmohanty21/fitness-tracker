@@ -16,8 +16,8 @@ public class Workout {
     private Long id;
     private String type;
     private String description;
-    private Integer duration;
-    private Integer calories;
+    private String duration;
+    private String calories;
     private LocalDateTime workoutDate;
 
     @ManyToOne

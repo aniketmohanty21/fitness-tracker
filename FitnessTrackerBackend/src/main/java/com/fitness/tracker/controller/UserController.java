@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "*") // Allows frontend to access this (can be restricted later)
+@CrossOrigin(origins = "*")
 public class UserController {
 
     @Autowired
